@@ -1,0 +1,150 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #80cdc1;
+    font-family: 'Exo', sans-serif;
+    padding: 20px;
+}
+
+.navbar h1 {
+    font-weight: bolder;
+    font-size: 200%;
+    justify-content: center;
+}
+
+li {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.buffer {
+    background-color: bisque;
+    padding: 1%;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 5px white;
+    margin: 0 auto;
+    display: block;
+    border: 5px solid white;
+}
+
+h2 {
+    font-size: 300%;
+}
+
+h3 {
+    font-size: 150%;
+}
+
+.navbar li:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: floralwhite;
+}
+
+section {
+    margin: 1%;
+    display: flex;
+}
+
+aside {
+    border-right: 5px solid;
+    padding: 1%;
+    flex: 1;
+    text-align: right;
+    color: #0065a2;
+}
+
+article {
+    padding: 1%;
+    flex: 4;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+.about-me p {
+    margin: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4em;
+}
+
+.work {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-me li {
+    margin: 20px;
+    align-items: center;
+}
+
+.card {
+    border: 7px solid darkblue;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    flex: 0 1 35%;
+    display: flex;
+}
+
+.image-text {
+    position: absolute;
+    background-color: darkblue;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    bottom: 5%;
+    font-size: 1rem;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    flex-basis: 100%;
+}
+
+footer {
+    background-color: bisque;
+    padding: 1%;
+}
+
+@media screen and (max-width: 992px) {
+    article {
+        flex-direction: column;
+    }
+    section {
+        flex-direction: column;
+    }
+    aside {
+        text-align: center;
+        padding: 0;
+        border: none;
+    }
+    .card {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+}
