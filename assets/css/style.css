@@ -4,6 +4,7 @@
     background-color: #80cdc1;
     font-family: 'Exo', sans-serif;
     padding: 20px;
+    font-size: 1.5rem;
 }
 
 .navbar h1 {
@@ -123,6 +124,11 @@ img {
 footer {
     background-color: bisque;
     padding: 1%;
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Exo', sans-serif;
 }
 
 @media screen and (max-width: 992px) {
